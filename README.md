@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+Digital-Spainel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Initiate Project: 
 
-## Available Scripts
+npm install 
+npm install -g json-server
 
-In the project directory, you can run:
+npm start
+json-server --watch ./src/assets/data/db.json
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Components folder: 
+- I am keeping all blocks in components folder and in components folder I have helpers where I keep hamburgerMobile, media-query, WindowScroll for the sticky header. 
+- For the whole application I used styled components and react-ui-kit which helped me to buid footer very quick and also mdReact which is a boostrap library whoch helped to with columns and rows. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- TestimonialBlock is getting data from Json database that I created localy, therefore you need to run json-server in order to see the block .
+I used contextApi to store my data which are distributed with provider across my application (provider is in app.js wrapping all blocks)
 
-### `npm test`
+- Block_001 is an reusable block across the app. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The app is fully responsive with a nice hamburger menu. 
 
-### `npm run build`
+I will finish this app fully as per design in the future as it was really fun to build it. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1787" alt="Screenshot 2022-05-23 at 20 13 28" src="https://user-images.githubusercontent.com/62358510/169890644-669b2bd9-5113-4ea8-afad-c39476011834.png"><img width="1787" alt="Screenshot 2022-05-23 at 20 15 42" src="https://user-images.githubusercontent.com/62358510/169890671-87fde1e3-49e3-45ba-bf12-b358aa720b46.png">
+<img width="1784" alt="Screenshot 2022-05-23 at 20 15 54" src="https://user-images.githubusercontent.com/62358510/169890680-5344d397-5944-475b-8c1d-3c8de963e57a.png"><img width="1773" alt="Screenshot 2022-05-23 at 20 16 32" src="https://user-images.githubusercontent.com/62358510/169890684-c84ecb53-d785-4941-9e62-7a5bdbdd0fe7.png">
 
-### `npm run eject`
+![mobile](https://user-images.githubusercontent.com/62358510/169891061-b21c82cc-cf8a-4222-a678-b8811e731025.png)![mobile (1)](https://user-images.githubusercontent.com/62358510/169891106-7317d368-1569-4391-8276-f156af0674c2.png)
+![mobile (3)](https://user-images.githubusercontent.com/62358510/169891127-22a23852-fb9a-4e68-8287-99250281820c.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![mobile (2)](https://user-images.githubusercontent.com/62358510/169891122-77aac21c-a28f-4a19-ab59-e603087cf43c.png)
