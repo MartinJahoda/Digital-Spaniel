@@ -5,6 +5,7 @@ import ThreeColBlock from "./Components/ThreeColBlock";
 import './App.css'
 import { TestimonialProvider } from "./TestimonialContext";
 import TestimonialBlock_old from "./Components/TestimonialBlock";
+import Gallery from "./Components/Gallery";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
    <TestimonialProvider> 
     <Header />
     <ThreeColBlock />  
+    <Gallery />
     <TestimonialBlock_old />
     <Footer/>
  </TestimonialProvider>

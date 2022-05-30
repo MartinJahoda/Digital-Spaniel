@@ -12,6 +12,7 @@ const Container = styled.div`
 display: block;
 height: 1000px;
 padding:0 20px;
+margin-top: -150px;
 
   @media ${devices.testimonial}{
     padding:0 126px;  
@@ -151,10 +152,10 @@ const Sliders = styled.div`
 function TestimonialBlock_old() {
 
     // Delay for the animation
-    const delay = 2222000;
+    const delay = 2200;
     // TestimonialContext is the context that is used to get the testimonial data
     const {testimonial} = useContext(TestimonialContext)
-    console.log(testimonial)
+
 
     // State for index /
     const [index, setIndex] = useState(0);
@@ -162,7 +163,7 @@ function TestimonialBlock_old() {
     const timeoutRef = useRef(null);
     //copy
     const testimonialArr = [...testimonial]
-    console.log(testimonialArr)
+
 
     // reset if I am in next slide
     function resetTimeout() {
