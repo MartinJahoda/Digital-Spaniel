@@ -35,6 +35,7 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
 .image01{
    img{
