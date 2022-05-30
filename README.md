@@ -5,8 +5,8 @@ Initiate Project:
 npm install 
 npm install -g json-server
 
-npm start
-json-server --watch ./src/assets/data/db.json
+first terminal: npm start
+second terminal: json-server --watch ./src/assets/data/db.json
 
 
 Components folder: 
